@@ -13,6 +13,6 @@ export class AppComponent implements OnInit{
 
   }
   ngOnInit(): void {
-    
+    this.http.get('https://my-json-server.typicode.com/malizia-g/hotel/songlist')
   }
 }
