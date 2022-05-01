@@ -11,9 +11,10 @@ export class ListaprenotazioniComponent implements OnInit {
 
   constructor() { }
   @Input() listaPreno : Booking[] = undefined!;
+  room : Room = undefined!;
   ngOnInit(): void {
   }
   mostraDett(room : Room){
-    console.log(room)
-  }
+      this.room = room;
+    }
 }
