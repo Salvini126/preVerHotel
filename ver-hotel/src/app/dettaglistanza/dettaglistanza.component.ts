@@ -8,11 +8,10 @@ import { Room } from '../models/room.model';
 })
 export class DettaglistanzaComponent implements OnInit {
    @Input() room : Room = undefined!;
-  constructor() { }
-
+  constructor() { 
+    
+  }
   ngOnInit(): void {
   }
-
-  
-
+ 
 }
